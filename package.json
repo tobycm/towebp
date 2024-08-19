@@ -1,12 +1,12 @@
 {
-  "name": "webp-converter",
+  "name": "towebp",
   "version": "3.0.0",
   "description": "A small node.js library for converting any image to webp file format.",
   "main": "index.ts",
   "scripts": {},
   "repository": {
     "type": "git",
-    "url": "https://github.com/tobycm/webp-converter.git"
+    "url": "https://github.com/tobycm/towebp.git"
   },
   "keywords": [
     "webp",

@@ -8,7 +8,7 @@ A small [node.js](http://nodejs.org) library for converting any image to webp fi
 # How to use
 
 ```js {"id":"01J5MJ5RS0Y602WNP1M29Y6W6E"}
-import { cwebp, gwebp } from "webp-converter";
+import { cwebp, gwebp } from "towebp";
 
 await cwebp("input.jpg", "output.webp", "-q 80")
 
