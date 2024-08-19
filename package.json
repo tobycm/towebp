@@ -16,28 +16,22 @@
     "webpconverter",
     "webp-converter",
     "cwebp",
-    "dwebp",
-    "gif2webp",
-    "webpmux"
+    "gwebp",
+    "gif2webp"
   ],
   "files": [
     "LICENSE",
     "README.md",
-    "app.js",
     "webpconverter.js",
     "src/buffer_utils.js",
     "src/temp_path.js",
     "src/cwebp.js",
-    "src/dwebp.js",
-    "src/gwebp.js",
-    "src/webpmux.js",
-    "bin/",
-    "images/",
-    "temp/"
+    "src/gwebp.js"
   ],
-  "dependencies": {
-    "uuid": "^8.3.2"
-  },
+  "dependencies": {},
   "author": "scionoftech",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^22.4.1"
+  }
 }
