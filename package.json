@@ -1,15 +1,12 @@
 {
   "name": "webp-converter",
-  "version": "2.3.3",
-  "description": "A small node.js library for converting any image to webp file format or converting webp image to any image file format.",
-  "main": "src/webpconverter.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node app.js"
-  },
+  "version": "3.0.0",
+  "description": "A small node.js library for converting any image to webp file format.",
+  "main": "index.ts",
+  "scripts": {},
   "repository": {
     "type": "git",
-    "url": "https://github.com/scionoftech/webp-converter.git"
+    "url": "https://github.com/tobycm/webp-converter.git"
   },
   "keywords": [
     "webp",
@@ -22,16 +19,13 @@
   "files": [
     "LICENSE",
     "README.md",
-    "webpconverter.js",
-    "src/buffer_utils.js",
-    "src/temp_path.js",
-    "src/cwebp.js",
-    "src/gwebp.js"
+    "index.ts"
   ],
   "dependencies": {},
   "author": "scionoftech",
   "license": "MIT",
   "devDependencies": {
-    "@types/node": "^22.4.1"
+    "@types/node": "^22.4.1",
+    "tsx": "4.17.0"
   }
 }
